@@ -48,7 +48,7 @@ function getDirectorySize($dir) {
             echo 'Dysk jest zmapowany <a href="?akcja=usun">Odmapuj</a>';
             $mapowany = true;
 
-            $directoryPath = 'Z:\\'; 
+            $directoryPath = 'Z:\\Wspolny\\2022A'; 
         $sizeInGB = getDirectorySize($directoryPath);
         echo "Rozmiar zmapowanego katalogu: " . round($sizeInGB, 2);
         }
